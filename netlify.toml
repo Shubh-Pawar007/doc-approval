@@ -1,0 +1,13 @@
+# Netlify configuration for doc-approval
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  base = "frontend"
+  publish = "dist"
+  command = "npm run build"
+
+# SPA Fallback for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
