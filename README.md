@@ -7,7 +7,8 @@ A minimal, end-to-end document approval system. A **submitter** sends a document
 | **Frontend**          | React 18 + TypeScript, Vite, Vitest + Testing Library                                   |
 | **Backend**           | Node.js 22 + Express 5 + TypeScript, Zod validation, Multer uploads, Vitest + Supertest |
 | **Storage**           | In-memory, behind a repository interface (swap-ready for Postgres)                      |
-| **Live demo**         | _add your URL here_                                                                     |
+| **Live demo**         | [https://doc-approval.netlify.app](https://doc-approval.netlify.app)                   |
+| **Backend API**       | [https://doc-approval-api.onrender.com](https://doc-approval-api.onrender.com)         |
 | **Video walkthrough** | _add your Loom link here_                                                               |
 
 ---
